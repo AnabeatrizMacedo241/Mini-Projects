@@ -34,8 +34,8 @@ print('6 - Raiz quadrada')
 
 
 operacao = input('Digite sua opção: 1/2/3/4/5/6\n')
-num1 = int(input('Insira um número: '))
-num2 = int(input('Insira um segundo número: '))
+num1 = float(input('Insira um número: '))
+num2 = float(input('Insira um segundo número: '))
 
 if operacao == '1':
     print(num1, '+', num2, '=', adição(num1, num2))
