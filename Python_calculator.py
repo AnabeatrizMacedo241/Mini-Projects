@@ -1,9 +1,5 @@
 import math
 
-
-# In[6]:
-
-
 def adição(x, y):
     return x+y
 
